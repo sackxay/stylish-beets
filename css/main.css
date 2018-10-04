@@ -1,0 +1,66 @@
+body {
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2 {
+  color: #3f1622;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+body {
+  background-color: #c9b5ab;
+}
+
+body {
+  font-size: 1.125rem;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+}
+
+figure {
+  text-align: center;
+}
+}
+
+blockquote {
+  font-family: 'PT Serif', serif;
+}
+
+.magic p {
+  font-size:1.5rem;
+}
+
+.magic p + cite {
+  font-size: 0.8rem;
+}
+
+nav > ol {
+  font-family: 'PT Sans', sans-serif;
+}
+
+nav > ol {
+  list-style: none
+}
+
+.magic > ol {
+  list-style: lower-greek;
+}
+
+dl > dt {
+  font-weight: bold;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+font-family: 'PT Serif', serif;
