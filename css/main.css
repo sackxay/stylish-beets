@@ -15,6 +15,10 @@ h1 {
 }
 
 body {
+  color: #222;
+}
+
+body {
   background-color: #c9b5ab;
 }
 
@@ -29,11 +33,6 @@ body {
 figure {
   text-align: center;
 }
-}
-
-blockquote {
-  font-family: 'PT Serif', serif;
-}
 
 blockquote {
   font-size:1.5rem;
@@ -45,6 +44,10 @@ blockquote {
 
 nav > ol {
   font-family: 'PT Sans', sans-serif;
+}
+
+a {
+  color: #8f2440;
 }
 
 nav > ol {
@@ -60,5 +63,23 @@ dl > dt {
 }
 
 ul {
-    list-style-type: circle;
+  list-style-type: circle;
+}
+
+ul {
+  font-size: 0.8rem;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
 }
