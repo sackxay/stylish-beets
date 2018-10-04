@@ -1,12 +1,14 @@
 body {
   line-height: 1.5;
+  color: #222;
+  background-color: #c9b5ab;
+  font-size: 1.125rem;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
 }
 
 h1, h2 {
-  font-family: 'PT Sans', sans-serif;
-}
-
-h1, h2 {
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
 }
 
@@ -14,44 +16,27 @@ h1 {
   font-size: 1.5rem;
 }
 
-body {
-  color: #222;
-}
-
-body {
-  background-color: #c9b5ab;
-}
-
-body {
-  font-size: 1.125rem;
-}
-
-body {
-  font-family: 'PT Serif', serif;
+a {
+  text-decoration: none;
+  color: #8f2440;
 }
 
 figure {
   text-align: center;
+  font-size: 1.125rem;
 }
 
 blockquote {
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
 .magic cite:last-child {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 nav > ol {
-  font-family: 'PT Sans', sans-serif;
-}
-
-a {
-  color: #8f2440;
-}
-
-nav > ol {
-  list-style: none
+  font-family: "PT Sans", sans-serif;
+  list-style: none;
 }
 
 .magic > ol {
@@ -64,22 +49,19 @@ dl > dt {
 
 ul {
   list-style-type: circle;
-}
-
-ul {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 img {
-    padding: 0;
-    display: block;
-    margin: 0 auto;
-    max-height: 100%;
-    max-width: 100%;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
 }
