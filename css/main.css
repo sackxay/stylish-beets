@@ -1,10 +1,16 @@
-body {
-  line-height: 1.5;
+html {
   color: #222;
   background-color: #c9b5ab;
-  font-size: 1.125rem;
   font-family: "PT Serif", serif;
   font-weight: normal;
+}
+
+head, body {
+  margin: .5em;
+}
+
+h1 {
+  font-size: 1.5rem;
 }
 
 h1, h2 {
@@ -12,13 +18,15 @@ h1, h2 {
   color: #3f1622;
 }
 
-h1 {
-  font-size: 1.5rem;
+body {
+  line-height: 1.5;
 }
 
 a {
   text-decoration: none;
   color: #8f2440;
+  font-size: 1.125rem;
+  font-family: "PT sans", sans-serif;
 }
 
 a:hover {
@@ -28,11 +36,15 @@ a:hover {
 
 figure {
   text-align: center;
+}
+
+figure + p {
   font-size: 1.125rem;
 }
 
 blockquote {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
+  line-height: normal;
 }
 
 .magic cite:last-child {
